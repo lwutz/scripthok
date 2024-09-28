@@ -5,7 +5,7 @@ const cs2CheatsButton = document.getElementById('cs2-cheats');
 // File items for Leaked Source Codes
 const leakedSources = [
     {
-        name: 'Fataliy shit src',
+        name: 'Old Fataliy Source Code',
         downloadLink: 'https://cdn.discordapp.com/attachments/1230919559662538772/1231630341106696384/Fatality.win-Source-main.zip?ex=66f974a3&is=66f82323&hm=cab5aca3925d98693e77c06e62353c6656ebe4708bc759567fe84d921d6aa051&',
         virusTotal: 'https://www.virustotal.com',
         hybridAnalysis: 'https://www.hybrid-analysis.com'

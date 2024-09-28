@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif; /* Updated font family */
-    background-color: #181818; /* Dark background for a sleek look */
-    color: #E0E0E0; /* Light text color for better readability */
+    background-color: #181818; 
+    color: #E0E0E0; 
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
     padding: 20px;
     border-radius: 8px; /* Added rounded corners for a softer look */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
-    background: #202020; /* Slightly lighter background for the container */
+    background: #202020; 
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 h1 {
     margin: 0;
     font-family: 'Montserrat', sans-serif; /* Header font for emphasis */
-    color: #00C6FF; /* Bright cyan for a striking header */
+    color: #00C6FF; 
 }
 
 .selection {
@@ -38,7 +38,7 @@ h1 {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #28a745; /* Green for action buttons */
+    background-color: #28a745; 
     color: white;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
@@ -46,7 +46,7 @@ h1 {
 
 .category-button:hover {
     background-color: #218838; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly grow on hover for emphasis */
+    transform: scale(1.05); 
 }
 
 .file-list {
@@ -58,7 +58,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     background: #2c2c2c; /* Darker card background */
-    border: 1px solid #444; /* Subtle border */
+    border: 1px solid #444; 
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
@@ -78,7 +78,7 @@ h1 {
 .links a {
     margin-left: 10px;
     text-decoration: none;
-    color: #007bff; /* Consistent color for links */
+    color: #007bff; 
 }
 
 .links a:hover {
