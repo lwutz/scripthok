@@ -43,12 +43,15 @@ const cs2Cheats = [
 
 // Function to populate the file list based on the selection
 function populateFileList(files) {
-    fileList.innerHTML = ''; // Clear previous items
+    // Clear previous items
+    fileList.innerHTML = '';
+
+    // Loop through the files and create HTML elements
     files.forEach(file => {
         const fileItem = document.createElement('div');
         fileItem.classList.add('file-item');
 
-        // Disable download links for "COMING SOON" or empty links
+        // Check if the download link is available, else disable it for "COMING SOON"
         const downloadLink = file.downloadLink ? `<a href="${file.downloadLink}" class="file-link" target="_blank">${file.name}</a>` : `<span class="file-link disabled">${file.name}</span>`;
 
         fileItem.innerHTML = `
@@ -60,7 +63,9 @@ function populateFileList(files) {
         `;
         fileList.appendChild(fileItem);
     });
-    fileList.classList.remove('hidden'); // Ensure the file list is shown
+
+    // Make sure to remove the hidden class to display the list
+    fileList.classList.remove('hidden');
 }
 
 // Event listeners for category buttons
